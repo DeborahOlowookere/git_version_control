@@ -25,7 +25,7 @@ def hotel_cost(num_nights):
     """
     Calculates the total cost of a hotel stay.
 
-    Args:
+        Parameters:
         num_nights (int): Number of nights staying at the hotel.
 
     Returns:
@@ -38,7 +38,7 @@ def plane_cost(city_flight):
     """
     Retrieves the cost of a flight to a specified city.
 
-    Args:
+    Parameters:
         city_flight (str): The name of the destination city.
 
     Returns:
@@ -51,7 +51,7 @@ def car_rental(rental_days):
     """
     Calculates the cost of renting a car.
 
-    Args:
+    Parameters:
         rental_days (int): Number of days the car will be rented.
 
     Returns:
@@ -64,7 +64,7 @@ def holiday_cost(num_nights, city_flight, rental_days):
     """
     Calculates the total cost of the holiday including hotel, flight, and car rental.
 
-    Args:
+    Parameters:
         num_nights (int): Number of nights at the hotel.
         city_flight (str): Destination city for the flight.
         rental_days (int): Number of days for car rental.
